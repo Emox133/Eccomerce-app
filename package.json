@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Practice",
+  "main": "app.js",
+  "scripts": {
+    "w-sass": "node-sass dist/sass/main.scss dist/css/style.css -w",
+    "dev:webpack": "webpack --mode development",
+    "build:webpack": "webpack --mode production",
+    "server:webpack": "webpack-dev-server --mode development --open"
+  },
+  "author": "Emir Salihovic",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "npm-run-all": "^4.1.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Rio De Janeiro - Brazil",
+        "price": 199.99,
+        "image": { "fields": { "file": { "url": "./dist/images/Rio.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "Tokio - Japan" },
+      "fields": {
+        "title": "king panel bed",
+        "price": 299.99,
+        "image": { "fields": { "file": { "url": "./dist/images/Tokio.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Venice - Italy",
+        "price": 269.99,
+        "image": { "fields": { "file": { "url": "./dist/images/Venice.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "New York - United States of America",
+        "price": 349.99,
+        "image": { "fields": { "file": { "url": "./dist/images/New York.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Collogne - Germany",
+        "price": 244.99,
+        "image": { "fields": { "file": { "url": "./dist/images/Collogne.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Istanbul - Turkey",
+        "price": 269.99,
+        "image": { "fields": { "file": { "url": "./dist/images/Istanbul.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "London - United Kingdom",
+        "price": 249.99,
+        "image": { "fields": { "file": { "url": "./dist/images/London.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Dubai - United Arab Emirates",
+        "price": 449.99,
+        "image": { "fields": { "file": { "url": "./dist/images/Dubai.jpg" } } }
+      }
+    }
+  ]
+}
