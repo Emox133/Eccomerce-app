@@ -13,7 +13,6 @@
 
 <body>
 
-
     <!-- Hero -->
     <header class="hero">
         <!-- Navbar -->
@@ -40,9 +39,105 @@
             </h1>
             <a href="#" class="btn btn--green btn--animated">Book now &downarrow;</a>
         </div>
-        
+
     </header>
     <!-- End of hero -->
+
+    <!-- Products -->
+    <section class="products">
+        <div class="products__title">
+            <h2 class="products__title-heading">our products</h2>
+        </div>
+        <div class="single">
+            <!-- single product -->
+            <article class="product">
+                <div class="product__container">
+                    <img src="./images/Collogne.jpg" alt="Collogne" class="product__container-img">
+                    <a href="#" class="product__container-reserve btn--reserve btn--white" data-id="1">
+                        Reserve now &rarr; <i class="far fa-credit-card"></i>
+                    </a>
+                </div>
+                <h3 class="product__name">Collogne</h3>
+                <h4 class="product__price">$249.99</h4>
+            </article>
+            <!-- end of single product -->
+
+            <!-- single product -->
+            <article class="product">
+                <div class="product__container">
+                    <img src="./images/New York.jpg" alt="Collogne" class="product__container-img">
+                    <button class="product__container-reserve btn--reserve" data-id="1">
+                        Reserve now <i class="far fa-credit-card"></i>
+                    </button>
+                </div>
+                <h3 class="product__name">queen bed</h3>
+                <h4 class="product__price">$16</h4>
+            </article>
+            <!-- end of single product -->
+
+            <!-- single product -->
+            <article class="product">
+                <div class="product__container">
+                    <img src="./images/Collogne.jpg" alt="Collogne" class="product__container-img">
+                    <button class="product__container-reserve btn--reserve" data-id="1">
+                        Reserve now <i class="far fa-credit-card"></i>
+                    </button>
+                </div>
+                <h3 class="product__name">queen bed</h3>
+                <h4 class="product__price">$16</h4>
+            </article>
+            <!-- end of single product -->
+
+            <!-- single product -->
+            <article class="product">
+                <div class="product__container">
+                    <img src="./images/Collogne.jpg" alt="Collogne" class="product__container-img">
+                    <a href="#" class="product__container-reserve btn--reserve" data-id="1">
+                        Reserve now<i class="far fa-credit-card"></i>
+                    </a>
+                </div>
+                <h3 class="product__name">queen bed</h3>
+                <h4 class="product__price">$16</h4>
+            </article>
+            <!-- end of single product -->
+        </div>
+    </section>
+    <!-- End of products -->
+
+    <!-- Cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="cart__close">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2 class="cart__heading">your cart</h2>
+            <div class="cart__content">
+                <!-- Cart item -->
+                <div class="cart__item">
+                    <img src="./images/Collogne.jpg" alt="Product 1" class="cart__item-img">
+                    <div>
+                        <h4 class="cart__item-name">Collogne</h4>
+                        <p class="cart__item-price">$249.99</p>
+                        <a href="#" class="cart__item-remove btn--red">remove item</a>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="amount">0</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <!-- end of cart item -->
+            </div>
+
+            <div class="cart__footer">
+                <h3 class="cart__footer-heading">Your total: <span class="cart__footer-total">$0</span></h3>
+                <a href="#" class="cart__footer-clear btn--red">Clear cart</a>
+            </div>
+        </div>
+    </div>
+    <!-- End of cart -->
+
     <script src="./js/bundle.js"></script>
 </body>
 
