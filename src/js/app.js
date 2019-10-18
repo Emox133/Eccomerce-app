@@ -1,5 +1,12 @@
-import mulNum from './test';
+import { elements } from './base';
+import Products from './Products';
+ 
+// Initial Cart
+let cart = [];
 
-let x = 21;
 
-console.log(mulNum(2, 5) + x);
+// What happens when content is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    let products = new Products();
+    products.getResults();
+});
