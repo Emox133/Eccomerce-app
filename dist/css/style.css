@@ -219,10 +219,12 @@ body {
   .product__name {
     font-size: 1.5rem;
     font-weight: 300;
+    text-transform: capitalize;
     margin-top: .5rem; }
   .product__price {
     font-size: 1rem;
-    font-weight: 400; }
+    font-weight: 400;
+    margin-top: .5rem; }
 
 .product__container {
   position: relative;

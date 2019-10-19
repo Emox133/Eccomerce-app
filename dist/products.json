@@ -5,15 +5,15 @@
       "fields": {
         "title": "Rio De Janeiro - Brazil",
         "price": 199.99,
-        "image": { "fields": { "file": { "url": "./dist/images/Rio.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Rio.jpg" } } }
       }
     },
     {
-      "sys": { "id": "Tokio - Japan" },
+      "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
+        "title": "Tokio - Japan",
         "price": 299.99,
-        "image": { "fields": { "file": { "url": "./dist/images/Tokio.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Tokio.jpg" } } }
       }
     },
     {
@@ -21,15 +21,15 @@
       "fields": {
         "title": "Venice - Italy",
         "price": 269.99,
-        "image": { "fields": { "file": { "url": "./dist/images/Venice.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Venice.jpg" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "New York - United States of America",
+        "title": "New York - USA",
         "price": 349.99,
-        "image": { "fields": { "file": { "url": "./dist/images/New York.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Newyork.jpg" } } }
       }
     },
     {
@@ -37,7 +37,7 @@
       "fields": {
         "title": "Collogne - Germany",
         "price": 244.99,
-        "image": { "fields": { "file": { "url": "./dist/images/Collogne.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Collogne.jpg" } } }
       }
     },
     {
@@ -45,7 +45,7 @@
       "fields": {
         "title": "Istanbul - Turkey",
         "price": 269.99,
-        "image": { "fields": { "file": { "url": "./dist/images/Istanbul.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Istanbul.jpg" } } }
       }
     },
     {
@@ -53,7 +53,7 @@
       "fields": {
         "title": "London - United Kingdom",
         "price": 249.99,
-        "image": { "fields": { "file": { "url": "./dist/images/London.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/London.jpg" } } }
       }
     },
     {
@@ -61,7 +61,7 @@
       "fields": {
         "title": "Dubai - United Arab Emirates",
         "price": 449.99,
-        "image": { "fields": { "file": { "url": "./dist/images/Dubai.jpg" } } }
+        "image": { "fields": { "file": { "url": "./images/Dubai.jpg" } } }
       }
     }
   ]

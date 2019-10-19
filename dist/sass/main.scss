@@ -308,12 +308,14 @@ body {
     &__name {
         font-size: 1.5rem;
         font-weight: 300;
+        text-transform: capitalize;
         margin-top: .5rem;
     }
 
     &__price {
         font-size: 1rem;
         font-weight: 400;
+        margin-top: .5rem;
     }
 }
 
