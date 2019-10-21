@@ -341,6 +341,7 @@ body {
         right: .5rem;
         // transform: translateX(100%);
         transition: $transition-small;
+        cursor: pointer;
 
         &,
         &:link,
@@ -464,6 +465,7 @@ body {
 .fa-chevron-down {
     font-size: 1rem;
     color: $color-black;
+    cursor: pointer;
 }
 
 .cart__footer {

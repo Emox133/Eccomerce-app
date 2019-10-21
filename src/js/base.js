@@ -1,11 +1,13 @@
 export const elements = {
     cartBtn: document.querySelector('.navbar__center-cart-btn'),
     cartItems: document.querySelector('.navbar__center-cart-items'),
-    reserveBtns: document.querySelectorAll('.products__container-reserve'),
+    reserveBtns: document.querySelectorAll('.product__container-reserve'),
     flightsContent: document.querySelector('.single'),
     cartContent: document.querySelector('.cart'),
     cartOverlay: document.querySelector('.cart-overlay'),
     closeBtn: document.querySelector('.cart__close'),
-    clearItems: document.querySelector('.cart__footer-clear'),
-    cartTotal: document.querySelector('.amount')
+    clearBtn: document.querySelector('.cart__footer-clear'),
+    cartAmount: document.querySelector('.amount'),
+    cartTotal: document.querySelector('.cart__footer-total'),
+    cartContainer: document.querySelector('.cart__content')
 };

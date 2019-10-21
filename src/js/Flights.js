@@ -16,7 +16,7 @@ export default class Flights {
                 return {title, price, id, image};
             });
 
-            console.log(flights);
+            // console.log(flights);
             //3. Return the new flight items
             return flights;
 

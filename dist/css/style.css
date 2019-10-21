@@ -241,7 +241,8 @@ body {
     position: absolute;
     top: 9rem;
     right: .5rem;
-    transition: all 0.2s; }
+    transition: all 0.2s;
+    cursor: pointer; }
     .product__container-reserve, .product__container-reserve:link, .product__container-reserve:visited {
       display: inline-block;
       text-transform: uppercase;
@@ -329,7 +330,8 @@ body {
 .fa-chevron-up,
 .fa-chevron-down {
   font-size: 1rem;
-  color: #000; }
+  color: #000;
+  cursor: pointer; }
 
 .cart__footer {
   text-align: center;

@@ -7,7 +7,7 @@
     "w-sass": "node-sass dist/sass/main.scss dist/css/style.css -w",
     "dev:webpack": "webpack --mode development",
     "build:webpack": "webpack --mode production",
-    "server:webpack": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode development --open"
   },
   "author": "Emir Salihovic",
   "license": "ISC",
@@ -18,6 +18,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "npm-run-all": "^4.1.5",
     "webpack": "^4.41.2",
