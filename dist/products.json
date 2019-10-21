@@ -4,6 +4,7 @@
       "sys": { "id": "1" },
       "fields": {
         "title": "Rio De Janeiro - Brazil",
+        "date": "11/11/2019 12:00AM",
         "price": 199.99,
         "image": { "fields": { "file": { "url": "./images/Rio.jpg" } } }
       }
@@ -12,6 +13,7 @@
       "sys": { "id": "2" },
       "fields": {
         "title": "Tokio - Japan",
+        "date": "25/10/2019 11:00PM",
         "price": 299.99,
         "image": { "fields": { "file": { "url": "./images/Tokio.jpg" } } }
       }
@@ -20,6 +22,7 @@
       "sys": { "id": "3" },
       "fields": {
         "title": "Venice - Italy",
+        "date": "10/12/2019 2:00PM",
         "price": 269.99,
         "image": { "fields": { "file": { "url": "./images/Venice.jpg" } } }
       }
@@ -28,6 +31,7 @@
       "sys": { "id": "4" },
       "fields": {
         "title": "New York - USA",
+        "date": "18/12/2019 9:00AM",
         "price": 349.99,
         "image": { "fields": { "file": { "url": "./images/Newyork.jpg" } } }
       }
@@ -36,6 +40,7 @@
       "sys": { "id": "5" },
       "fields": {
         "title": "Collogne - Germany",
+        "date": "24/11/2019 6:00PM",
         "price": 244.99,
         "image": { "fields": { "file": { "url": "./images/Collogne.jpg" } } }
       }
@@ -44,6 +49,7 @@
       "sys": { "id": "6" },
       "fields": {
         "title": "Istanbul - Turkey",
+        "date": "21/12/2019 1:00PM",
         "price": 269.99,
         "image": { "fields": { "file": { "url": "./images/Istanbul.jpg" } } }
       }
@@ -52,6 +58,7 @@
       "sys": { "id": "7" },
       "fields": {
         "title": "London - United Kingdom",
+        "date": "28/11/2019 8:00PM",
         "price": 249.99,
         "image": { "fields": { "file": { "url": "./images/London.jpg" } } }
       }
@@ -60,6 +67,7 @@
       "sys": { "id": "8" },
       "fields": {
         "title": "Dubai - United Arab Emirates",
+        "date": "16/12/2019 11:00AM",
         "price": 449.99,
         "image": { "fields": { "file": { "url": "./images/Dubai.jpg" } } }
       }

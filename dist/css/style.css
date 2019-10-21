@@ -43,6 +43,9 @@
   padding: 0;
   box-sizing: inherit; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 62.5%;
@@ -185,9 +188,9 @@ body {
 /****************END OF HERO****************/
 /********************PRODUCTS**************/
 .products {
-  padding: 4rem 0;
+  padding: 2rem 0;
   background: #ececec;
-  height: 40rem; }
+  height: auto; }
 
 .products__title {
   text-align: center;
@@ -205,6 +208,14 @@ body {
     .products__title-heading:hover {
       transform: skewX(1.4deg) skewY(8deg) scale(1.05); }
 
+.products__copy {
+  height: 5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center; }
+  .products__copy-text {
+    align-self: flex-end; }
+
 .single {
   width: 90vw;
   margin: 0 auto;
@@ -217,9 +228,13 @@ body {
 .product {
   text-align: center; }
   .product__name {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
     text-transform: capitalize;
+    margin-top: .5rem; }
+  .product__date {
+    font-size: 1rem;
+    font-weight: 300;
     margin-top: .5rem; }
   .product__price {
     font-size: 1rem;
@@ -245,7 +260,7 @@ body {
     cursor: pointer; }
     .product__container-reserve, .product__container-reserve:link, .product__container-reserve:visited {
       display: inline-block;
-      text-transform: uppercase;
+      text-transform: capitalize;
       text-decoration: none;
       font-size: .7rem;
       padding: .5rem .7rem;
@@ -311,11 +326,15 @@ body {
     border-radius: 50%; }
   .cart__item-name {
     font-size: 1rem; }
+  .cart__item-date {
+    font-size: 1rem; }
   .cart__item-price {
-    font-size: .8rem;
-    margin-bottom: .5rem; }
+    font-size: .9rem;
+    font-weight: 400;
+    margin-top: .5rem; }
   .cart__item-remove {
-    font-size: .8rem; }
+    font-size: .8rem;
+    margin-top: .5rem; }
     .cart__item-remove, .cart__item-remove:link, .cart__item-remove:visited {
       display: inline-block;
       text-transform: capitalize;
@@ -348,9 +367,26 @@ body {
       text-transform: uppercase;
       text-decoration: none; }
 
+/******************EMD OF CART***********/
 @media screen and (min-width: 768px) {
   .cart {
     width: 30vw;
     min-width: 45rem; } }
 
-/******************EMD OF CART***********/
+@media screen and (max-width: 600px) {
+  .hero__primary {
+    margin-bottom: 1.5rem; }
+    .hero__primary--main {
+      font-size: 2.2rem; }
+    .hero__primary--secondary {
+      font-size: 1.2rem; }
+  .products__title {
+    font-size: 1.2rem; }
+  .products__copy {
+    font-size: 1rem; }
+  .btn, .btn:link, .btn:visited {
+    font-size: .8rem;
+    padding: .5rem 2rem; }
+  .hero__text-box {
+    top: 60%;
+    left: 50%; } }

@@ -1,7 +1,7 @@
 {
   "name": "testing",
   "version": "1.0.0",
-  "description": "Practice",
+  "description": "Simple eccomerce app",
   "main": "app.js",
   "scripts": {
     "w-sass": "node-sass dist/sass/main.scss dist/css/style.css -w",

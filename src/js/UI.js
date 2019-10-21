@@ -21,6 +21,7 @@ export default class UI {
                     </button>
                 </div>
                 <h3 class="product__name">${flight.title}</h3>
+                <h5 class="product__date">${flight.date}</h5>
                 <h4 class="product__price">$${flight.price}</h4>
             </article>
             `;
@@ -97,6 +98,7 @@ export default class UI {
         <img src="${item.image}" alt="${item.title}" class="cart__item-img">
         <div>
             <h4 class="cart__item-name">${item.title}</h4>
+            <h5 class="cart__item-date">${item.date}</h5>
             <p class="cart__item-price">$${item.price}</p>
             <a href="#" class="cart__item-remove btn--red" data-id="${item.id}">remove item</a>
         </div>

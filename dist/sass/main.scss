@@ -82,6 +82,10 @@ $transition-large: all .5s;
     box-sizing: inherit;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 62.5%; ///1 rem = 10px
@@ -263,10 +267,9 @@ body {
 
 /********************PRODUCTS**************/
 .products {
-    padding: 4rem 0;
+    padding: 2rem 0;
     background: $color-grey-light;
-    // test
-    height: 40rem;
+    height: auto;
 }
 
 .products__title {
@@ -291,6 +294,17 @@ body {
     }
 }
 
+.products__copy {
+    height: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+
+    &-text {
+        align-self: flex-end;
+    }
+}
+
 /////////////SINGLE PRODUCT STYLES
 .single {
     width: 90vw;
@@ -306,9 +320,15 @@ body {
     text-align: center;
 
     &__name {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 300;
         text-transform: capitalize;
+        margin-top: .5rem;
+    }
+
+    &__date {
+        font-size: 1rem;
+        font-weight: 300;
         margin-top: .5rem;
     }
 
@@ -347,7 +367,7 @@ body {
         &:link,
         &:visited {
             display: inline-block;
-            text-transform: uppercase;
+            text-transform: capitalize;
             text-decoration: none;
             font-size: .7rem;
             padding: .5rem .7rem;
@@ -436,13 +456,19 @@ body {
         font-size: 1rem;
     }
 
+    &-date {
+        font-size: 1rem;
+    }
+
     &-price {
-        font-size: .8rem;
-        margin-bottom: .5rem;
+        font-size: .9rem;
+        font-weight: 400;
+        margin-top: .5rem;
     }
 
     &-remove {
         font-size: .8rem;
+        margin-top: .5rem;
 
         &,
         &:link,
@@ -489,11 +515,49 @@ body {
         }
     }
 }
-
+/******************EMD OF CART***********/
 @media screen and (min-width: 768px) {
     .cart {
         width: 30vw;
         min-width: 45rem;
     }
 }
-/******************EMD OF CART***********/
+
+
+@media screen and (max-width: 600px) {
+    .hero__primary {
+        margin-bottom: 1.5rem;
+
+        &--main {
+            font-size: 2.2rem;
+        }
+
+        &--secondary {
+            font-size: 1.2rem;
+        }
+    }
+
+    .products__title {
+        font-size: 1.2rem;
+    }
+
+    .products__copy {
+        font-size: 1rem;
+    }
+
+    .btn {
+
+        &,
+        &:link,
+        &:visited {
+            font-size: .8rem;
+            padding: .5rem 2rem;
+        }
+    }
+
+    &.hero__text-box {
+        top: 60%;
+        left: 50%;
+    }
+}
+

@@ -10,10 +10,10 @@ export default class Flights {
             let flights = data.items;
 
             flights = flights.map(flight => {
-                const {title, price} = flight.fields;
+                const {title, price, date} = flight.fields;
                 const {id} = flight.sys;
                 const image = flight.fields.image.fields.file.url;
-                return {title, price, id, image};
+                return {title, price, id, date, image};
             });
 
             // console.log(flights);
