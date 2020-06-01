@@ -8,7 +8,7 @@
     "dev:webpack": "webpack --mode development",
     "build:webpack": "webpack --mode production",
     "start:dev": "webpack-dev-server --mode development --open",
-    "start": "serve /dist"
+    "start": "serve dist/"
   },
   "author": "Emir Salihovic",
   "license": "ISC",
