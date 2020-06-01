@@ -7,7 +7,8 @@
     "w-sass": "node-sass dist/sass/main.scss dist/css/style.css -w",
     "dev:webpack": "webpack --mode development",
     "build:webpack": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start:dev": "webpack-dev-server --mode development --open",
+    "start": "serve -s dist"
   },
   "author": "Emir Salihovic",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "npm-run-all": "^4.1.5",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2"
+    "webpack-dev-server": "^3.8.2",
+    "serve": "^11.3.1"
   }
 }
